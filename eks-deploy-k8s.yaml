@@ -15,8 +15,8 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: mykubeproject
-                image: 088614136163.dkr.ecr.us-east-1.amazonaws.com/mykubeproject:latest
+      - name: kube project
+                image: 088614136163.dkr.ecr.us-east-1.amazonaws.com/kube project:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
@@ -30,7 +30,7 @@ metadata:
   labels:
     app: springboot-app
     k8s-app: springboot-app
-  name: mykubeproject
+  name: kube project
 spec:
   ports:
   - name: http
