@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kube project
-                image: 088614136163.dkr.ecr.us-east-1.amazonaws.com/kube project:latest
+                image: 088614136163.dkr.ecr.us-east-1.amazonaws.com/kube project
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
